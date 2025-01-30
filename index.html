@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="profile-image">
+            <img src="profilePicture.jpg" alt="profile" data-testid="profilePicture">
+        </div>
+        <div class="profile-content">
+            <h1 data-testid="fullName">ILyasu Muhammad</h1>
+            <h2 data-testid="jobTitle">Front-End Developer</h2>
+            <p data-testid="shortBio">Web Developer with great passion in Software Engineering.</p>
+            <p data-testid="currentLocation">Kebbi State, Nigeria</p>
+            <p data-testid="emailAddress">Email: muhammadilyasu95@gmail.com</p>
+            <div class="social-icons">
+                <a href="https://x.com/ilyaasu_muhd" data-testid="socialLinks" title="Twitter Profile"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://github.com/ilyaabatan" data-testid="socialLinks" title="GitHub Profile"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <p data-testid="currentTime" id="currentTimeUTC">Loading UTC Time...</p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
